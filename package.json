@@ -1,0 +1,24 @@
+{
+  "name": "angular-formly-siren-action",
+  "version": "0.0.1",
+  "description": "Siren extension for angular-formly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/formly-js/angular-formly-siren-action"
+  },
+  "keywords": [
+    "angular",
+    "formly",
+    "siren"
+  ],
+  "author": "Vincenzo Chianese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/formly-js/angular-formly-siren-action/issues"
+  },
+  "homepage": "https://github.com/formly-js/angular-formly-siren-action"
+}
