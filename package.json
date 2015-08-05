@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/formly-js/angular-formly-siren-action/issues"
   },
-  "homepage": "https://github.com/formly-js/angular-formly-siren-action"
+  "homepage": "https://github.com/formly-js/angular-formly-siren-action",
+  "dependencies": {
+    "angular": "^1.4.3",
+    "angular-formly": "^6.23.0",
+    "api-check": "^7.5.0"
+  }
 }
