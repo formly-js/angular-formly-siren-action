@@ -21,9 +21,12 @@
     "url": "https://github.com/formly-js/angular-formly-siren-action/issues"
   },
   "homepage": "https://github.com/formly-js/angular-formly-siren-action",
-  "dependencies": {
+  "peerDependencies": {
     "angular": "^1.4.3",
     "angular-formly": "^6.23.0",
     "api-check": "^7.5.0"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
   }
 }
