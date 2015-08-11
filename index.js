@@ -1,8 +1,14 @@
-import angular from 'angular'
-import formly from 'formly'
+import _ from 'lodash'
 
-const ngModuleName = 'formlyMaterial'
-const ngModule = angular.module(ngModuleName, [formly])
-
-
-export default ngModuleName
+export default function mapSirenToFormly(fields)
+  {
+    return _(this.action.fields).map(field => {
+      return {
+        type: this.action.name + '.' + field.type,
+        key: field.name,
+        templateOptions: {
+          label: field.name
+        }
+      }
+    }).value()
+  }
