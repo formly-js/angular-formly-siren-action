@@ -31,6 +31,10 @@ export default function mapSirenToFormly(action) {
 }
 ```
 
+The default `require` statement will take the ES5 version, traspiled used **Babel**. You can grab the original ES6 source requiring `index.js` file from the npm package.
+
+`require('angular-formly-siren-action/index')`
+
 And it is based on [Siren fields specification](https://github.com/kevinswiber/siren#fields-1)
 
 Feel free to file an issue or a Pull request if something can be improved!
