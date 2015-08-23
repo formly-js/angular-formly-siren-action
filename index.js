@@ -6,8 +6,9 @@ export default function mapSirenToFormly(fields)
       return {
         type: this.action.name + '.' + field.type,
         key: field.name,
+        defaultValue: field.value,
         templateOptions: {
-          label: field.name
+          label: field.title || field.name
         }
       }
     }).value()
