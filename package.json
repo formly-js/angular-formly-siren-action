@@ -27,6 +27,6 @@
     "api-check": "^7.5.0"
   },
   "dependencies": {
-    "lodash": "^3.10.1"
+
   }
 }
